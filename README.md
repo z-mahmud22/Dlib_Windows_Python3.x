@@ -40,4 +40,16 @@ python -m pip install dlib-19.24.1-cp311-cp311-win_amd64.whl
 ```
 python -m pip install dlib-19.24.99-cp312-cp312-win_amd64.whl
 ```
+## Steps to build Dlib from source:
+If you'd like to build it from source, follow these exact steps as per their [docs](https://github.com/davisking/dlib?tab=readme-ov-file#compiling-dlib-python-api):
+* Install [Visual Studio 2022](https://visualstudio.microsoft.com/vs/community/) with the option **Desktop Development with C++**
+* Create a virtual env with [`venv`](https://docs.python.org/3/library/venv.html) or [anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+* Execute these commands:
+```
+git clone https://github.com/davisking/dlib.git
+cd dlib
+pip install build
+python -m build --wheel # Upon successful run, a ".whl" binary will be created under "dlib/dist/" 
+pip install dist/dlib-<version>.whl # replace <version> with the exact name of the ".whl" file
+``` 
 Cheers!
