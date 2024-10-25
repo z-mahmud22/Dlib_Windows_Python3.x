@@ -1,4 +1,4 @@
-# Dlib compiled binary wheels for Python 3.7 - 3.12 on Windows 10 X64
+# Dlib compiled binary wheels for Python 3.7 - 3.12 on Windows and x64 CPUs
 
 This repository contains the compiled binary (.whl) files for the [Dlib](http://dlib.net/) library to install on Python versions 3.7, 3.8, 3.9, 3.10, 3.11, and 3.12 on a Windows x64 OS. 
 
