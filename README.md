@@ -1,9 +1,10 @@
-# Dlib compiled binary wheels for Python 3.7 - 3.12 on Windows and x64 CPUs
+# Dlib compiled binary wheels for Python 3.7 - 3.13 on Windows and x64 CPUs
 
-This repository contains the compiled binary (.whl) files for the [Dlib](http://dlib.net/) library to install on Python versions 3.7, 3.8, 3.9, 3.10, 3.11, and 3.12 on a Windows x64 OS. 
+This repository contains the compiled binary (.whl) files for the [Dlib](http://dlib.net/) library to install on Python versions 3.7 - 3.13 on a Windows x64 OS. 
 
 ## 📢 New Update:
 * May 08, 2024: Added compiled binary file (.whl) for Python 3.12!
+* February 22, 2026: Added compiled binary file (.whl) for Python 3.13!
 
 ## Steps to install Dlib:
 
@@ -39,6 +40,10 @@ python -m pip install dlib-19.24.1-cp311-cp311-win_amd64.whl
 ### Python 3.12
 ```
 python -m pip install dlib-19.24.99-cp312-cp312-win_amd64.whl
+```
+### Python 3.13
+```
+python -m pip install dlib-20.0.99-cp313-cp313-win_amd64.whl
 ```
 ## Steps to build Dlib from source:
 If you'd like to build it from source, follow these exact steps as per their [docs](https://github.com/davisking/dlib?tab=readme-ov-file#compiling-dlib-python-api):
